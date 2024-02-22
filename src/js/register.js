@@ -14,7 +14,7 @@ $(document).ready(function() {
 
         // Faça uma requisição AJAX ao servidor (substitua a URL com o caminho correto para o seu arquivo PHP)
         $.ajax({
-            url: "caminho/para/check_cadastro.php",
+            url: "../../PHP/check_cadastro.php",
             type: "POST",
             contentType: "application/json",
             data: JSON.stringify({ username: username, password: password }),
