@@ -11,7 +11,7 @@ function performLogin() {
             var response = JSON.parse(xhr.responseText);
             if (response.success) {
                 // Redirecionar para a página index ou fazer o que for necessário
-                window.location.href = src="../html/elinsz.html";
+                window.location.href = '../html/elinsz.html';
             } else {
                 alert('Login falhou. Verifique suas credenciais.');
             }
