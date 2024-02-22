@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script type="text/javascript"
+    src="../../../tools/firebug-lite/build/firebug-lite-debug.js"></script>
+
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/sm-core-css.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/sm-simple.css" />
+
+    <script type="text/javascript" src="../js/lib/LAB.js"></script>
+    <script type="text/javascript" src="../js/core.js"></script>
+
+    <title>Autenticação</title>
+
+</head>
+<body>
+    <form id="loginForm">
+        <label for="username">Nome de Usuário:</label>
+        <input type="text" id="username" name="username" required><br>
+
+        <label for="password">Senha:</label>
+        <input type="password" id="password" name="password" required><br>
+
+        <button type="button" onclick="performLogin()">Login</button>
+    </form>
+
+    <ul class="login-utils">
+        <li class="margin-bottom-8 margin-top-8">
+          <span class="text1">
+            Esqueceu sua
+          </span>
+
+          <a href="RecSenha.html" class="text2">
+            senha?
+          </a>
+        </li>
+
+        <li>
+          <span class="text1">
+            Não tem conta?
+          </span>
+
+          <a href="cadastro.html" class="text2">
+            Criar
+          </a>
+        </li>
+      </ul>
+    <script src="../js/login.js"></script>
+</body>
+</html>
