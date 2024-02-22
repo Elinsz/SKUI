@@ -1,0 +1,157 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e9e9e9; /* Cinza claro */
+  }
+
+
+  .form1{
+    width: 360px;
+    margin: auto;
+    padding-top: 25px;
+  }
+
+
+  .form2{
+    width: 400px;
+    margin: auto;
+    padding-top: 25px;
+  }
+
+
+  .form3{
+    width: 400px;
+    margin: auto;
+    padding-top: 25px;
+  }
+
+  .card-top{
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .card-group{
+    margin-bottom: 5px;
+  }
+
+  .imglogin{
+    width: 80px;
+  }
+
+  .title{
+    padding-top: 10px;
+    font-size: 25px;
+    margin: auto;
+    color: #CD0000; /* Cor do texto */
+  }
+
+  .card{
+    box-shadow: 1px 1px 5px #616161;
+    background-color: rgb(255, 255, 255); /* Branco */
+    padding: 30px;
+    border-radius: 20px;
+  }
+
+  .card-group > label{
+    width: 100%;
+    color: #222222;
+    display: flex;
+    padding-top: 5px;
+    align-items: left;
+    margin-left: 10px;
+    outline: 0;
+  }
+
+  .card-group > input{
+    width: 92%;
+    height: 20px;
+    padding: 6px;
+    align-items: center;
+    margin-bottom: 8px;
+    border-radius: 10px;
+    outline: 0;
+  }
+
+
+  .recSenha {
+    width: 98%;
+    font-size: 15px;
+    border: 0px;
+    list-style: none;
+    color: #721818;
+  }
+
+
+  .login-utils li {
+    display: block;
+    font-size: 15px;
+    text-align: left;
+    border: 0px;
+    list-style: none;
+    padding-top: 10px;
+  }
+
+
+  .login-utils2 {
+    float: left;
+    padding-left: 25px;
+    font-size: 12px;
+    border: 0px;
+    list-style: none;
+  }
+
+  .copiring{
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    padding: 5px;
+    margin-top: 5px;
+    color: #0011ff;
+  }
+
+
+  .card-group1 > input{
+    background-image: linear-gradient(to right, #CD0000,  #721818); /* Cor do botão */
+    color: #fff; /* Cor do texto do botão */
+    width: 98%;
+    padding: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0px;
+    outline: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+
+  .card-group1 > input:hover{
+    background-image: linear-gradient(to right, #CD0000,  #2c0404); /* Cor do botão ao passar o mouse */
+  }
+
+  .card-group2 > input{
+    background-image: linear-gradient(to right, #CD0000,  #721818); /* Cor do botão */
+    color: #fff; /* Cor do texto do botão */
+    width: 98%;
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 1px;
+    padding-left: 15px;
+    border: 0px;
+    outline: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+
+  .card-group2 > input:hover{
+    background-image: linear-gradient(to right, #CD0000,  #2c0404); /* Cor do botão ao passar o mouse */
+  }
+
+  .card-group3 > input:hover{
+    background-image: linear-gradient(to right, #CD0000,  #2c0404); /* Cor do botão ao passar o mouse */
+  }
