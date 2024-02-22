@@ -1,8 +1,4 @@
-/*******************************************************************************
- *
- * class Register
- *
- ******************************************************************************/
+
 $(document).ready(function() {
     // Manipulador de evento para o clique do botão cadastrar
     $("#register").click(function() {
@@ -12,7 +8,7 @@ $(document).ready(function() {
 
         // Faça uma requisição AJAX ao servidor (substitua a URL com o caminho correto para o seu arquivo PHP)
         $.ajax({
-            url: "../../PHP/check_cadastro.php",
+            url: "check_cadastro.php",
             type: "POST",
             contentType: "application/json",
             data: JSON.stringify({ username: username, password: password }),
