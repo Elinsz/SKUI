@@ -3,8 +3,6 @@
  * class Register
  *
  ******************************************************************************/
-
-<script>
 $(document).ready(function() {
     // Manipulador de evento para o clique do botão cadastrar
     $("#register").click(function() {
@@ -33,5 +31,5 @@ $(document).ready(function() {
         });
     })
 });
-</script>
+
 
