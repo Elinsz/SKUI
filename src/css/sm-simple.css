@@ -42,7 +42,7 @@
   background: rgba(0, 0, 0, 0.08);
 }
 .sm-simple a.highlighted span.sub-arrow:before {
-  display: block; 
+  display: block;
   content: '-';
 }
 */
@@ -134,7 +134,7 @@
     color: #333333; /*555555 this color on NOT hover*/
   }
   .sm-simple a:hover, .sm-simple a:focus, .sm-simple a:active, .sm-simple a.highlighted {
-    background: #0078d7; /*eeeeee*/
+    background: #CD0000; /*eeeeee*/
     color: white;
   }
   .sm-simple a.current {
