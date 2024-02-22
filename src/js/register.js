@@ -31,7 +31,7 @@ $(document).ready(function() {
                 alert("Erro na requisição. Tente novamente.");
             }
         });
-    });
+    })
 });
 </script>
 
