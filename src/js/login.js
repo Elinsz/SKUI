@@ -11,7 +11,7 @@ function performLogin() {
             var response = JSON.parse(xhr.responseText);
             if (response.success) {
                 // Redirecionar para a página index ou fazer o que for necessário
-                window.location.href = 'file:///C:/wamp64/www/eis_elinsz/SKUI/src/html';
+                window.location.href = 'http://localhost/eis_elinsz/SKUI/src/html/elinz.html';
             } else {
                 alert('Login falhou. Verifique suas credenciais.');
             }

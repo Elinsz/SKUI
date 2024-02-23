@@ -8,7 +8,7 @@ $(document).ready(function() {
 
         // Faça uma requisição AJAX ao servidor (substitua a URL com o caminho correto para o seu arquivo PHP)
         $.ajax({
-            url: "file:///C:/wamp64/www/eis_elinsz/check_login.php",
+            url: "http://localhost/eis_elinsz/check_login.php",
             type: "POST",
             contentType: "application/json",
             data: JSON.stringify({ username: username, password: password }),
