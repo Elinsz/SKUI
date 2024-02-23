@@ -1,5 +1,6 @@
 <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 
+
 $(document).ready(function() {
     // Manipulador de evento para o clique do botão entrar
     $("#btn_login").click(function() {
