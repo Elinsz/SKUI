@@ -1,7 +1,7 @@
 
 $(document).ready(function() {
     // Manipulador de evento para o clique do botão cadastrar
-    $("#register").click(function() {
+    $("#btn_cadastrar").click(function() {
         // Obtenha os dados do formulário
         var username = $("#username").val();
         var password = $("#password").val();
